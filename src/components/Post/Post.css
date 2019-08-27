@@ -4,7 +4,7 @@
     box-sizing: border-box;
     border: 2px solid red;
     width: 400px;
-    height: 300px;
+    height: content-box;
     padding: 30px;
 }
 
@@ -16,12 +16,14 @@
 
 .Post__text {
     font-size: 14px;
+    padding-bottom: 10px;
 }
 
 .Post__footer {
     display: flex;
     margin-top: auto;
     justify-content: space-between;
+    padding-top: 10px;
 }
 
 .update__modal {

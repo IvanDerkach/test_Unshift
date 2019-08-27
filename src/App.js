@@ -1,12 +1,11 @@
 import React from 'react';
-
 import './App.css';
-import { Post } from "./components/Post/Post.jsx";
+import {MainSection} from "./components/MainSection/MainSection.jsx";
 
 function App() {
   return (
     <div className="App">
-      <Post />
+      <MainSection />
     </div>
   );
 }
